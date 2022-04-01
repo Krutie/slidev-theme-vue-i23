@@ -1,8 +1,8 @@
-# slidev-theme-vuebub
+# slidev-theme-vue-i23
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-vuebub?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-vuebub)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-vue-i23?color=3AB9D4&label=slidev-theme-vue-i23)](https://www.npmjs.com/package/slidev-theme-vue-i23)
 
-A Slidev theme (made with [Slidev](https://github.com/slidevjs/slidev)) for Vue presenations featuring Vue Bub.
+A presentation theme (made with [Slidev](https://github.com/slidevjs/slidev)) for Vue presenations featuring Vue Bub.
 
 <!--
   Learn more about how to write a theme:
@@ -33,14 +33,10 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-### Cover
-
-### Quote
-
-### Content 
-
-### Image-right
-
+- Cover
+- Quote
+- Content 
+- Image-right
 
 ## Components
 
