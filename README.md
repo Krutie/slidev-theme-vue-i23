@@ -21,6 +21,11 @@ A presentation theme (made with [Slidev](https://github.com/slidevjs/slidev)) fo
 
 ## Install
 
+```
+  npm i slidev-theme-vue-i23
+```
+
+## Usage 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
