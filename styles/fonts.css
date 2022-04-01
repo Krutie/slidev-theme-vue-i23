@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'D-DIN';
+    src: url('./fonts/D-DIN.otf'); /* IE9+ Compat Modes */
+}
+
+@font-face {
+    font-family: 'D-DIN-Bold';
+    src: url('./fonts/D-DIN-Bold.otf'); /* IE9+ Compat Modes */
+}
+
+@font-face {
+    font-family: 'D-DINExp-Bold';
+    src: url('./fonts/D-DINExp-Bold.otf'); /* IE9+ Compat Modes */
+}

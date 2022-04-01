@@ -1,0 +1,109 @@
+:root {
+  --slidev-theme-primary: #5d8392;
+  --black: #131618;
+  --blue: #9ED5D6;
+  --green: #25AF65;
+  --orange: #ff9800; /* #F0A032; */
+}
+body {
+  font-family: 'D-DIN';
+}
+
+html.dark {
+  #slide-content {
+    background-color: var(--black);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'D-DIN-Bold';
+  @apply opacity-80;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--orange);
+}
+
+h4 {
+  font-family: 'D-DIN';
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro,
+.slidev-layout.content,
+.slidev-layout.quote {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-4xl leading-20 mx-auto;
+    line-height: 3rem;
+    font-family: 'D-DIN-bold';
+  }
+}
+
+.slidev-layout {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  
+  .example {
+    display: flex;
+    @apply py-4;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  td, th {
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    line-height: 1.2;
+    opacity: 0.75;
+  }
+  sup {
+    @apply text-xs opacity-35;
+  }
+  ul, ol {
+    li {
+      color: var(--green);
+    }
+  }
+  ol {
+    margin-top: 1rem;
+    li {
+      @apply text-xs;
+    }
+  }
+  p {
+    @apply text-xl;
+  }
+  table {
+    strong {
+      color: var(--green);
+      font-weight: bold;  
+    }
+  }
+  li {
+    color: var(--green);
+  }
+  li, p {
+    font-family: 'D-DIN';
+    @apply opacity-70;
+    span {
+      @apply text-2xl;
+      font-family: 'D-DIN-Bold';
+    }
+  }
+}
+
+.slidev-layout {
+  &.quote {
+    p {
+      color: var(--green);
+      @apply text-2xl;
+      span {
+        @apply text-3xl;
+      }
+    }
+  }
+}
