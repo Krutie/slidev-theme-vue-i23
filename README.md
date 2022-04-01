@@ -24,7 +24,7 @@ A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
-theme: <b>vuebub</b>
+theme: <b>vue-i23</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
@@ -33,13 +33,20 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+### Cover
+
+### Quote
+
+### Content 
+
+### Image-right
+
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+> None at the moment
 
 ## Contributing
 
