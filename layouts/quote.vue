@@ -12,8 +12,6 @@ import { handleBackground } from "@slidev/client/layoutHelper";
 const props = defineProps({
     image: {
         type: String,
-        default:
-            "https://diagram-pins.s3.ap-southeast-2.amazonaws.com/2022-03/bg-04.svg",
     },
     class: {
         type: String,
