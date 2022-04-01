@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-vuebub?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-vuebub)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A Slidev theme (made with [Slidev](https://github.com/slidevjs/slidev)) for Vue presenations featuring Vue Bub.
 
 <!--
   Learn more about how to write a theme:
