@@ -1,10 +1,20 @@
 {
   "name": "slidev-theme-vue-i23",
-  "version": "0.0.6",
+  "version": "0.0.8",
+  "author": "Krutie Patel<krutie@pariksha.io>",
+  "description": "Slidev theme for Vue presentations featuring Vue bub",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "vuei23",
+    "krutiepatel"
   ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krutie/slidev-theme-vue-i23.git"
+  },
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
@@ -12,30 +22,18 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.29.2",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.1.14"
+    "@slidev/cli": "^0.29.2",
+    "@slidev/theme-default": "^0.21.2"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.29.2"
+    "@iconify-json/ri": "^1.1.1"
   },
   "engines": {
     "node": ">=14.0.0",
     "slidev": ">=0.19.3"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
     "colorSchema": "dark",
-    "highlighter": "all",
-    "defaults": {
-      "aspectRatio": "16/9",
-      "canvasWidth": 980,
-      "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
-      },
-      "hightlighter": "prism"
-    }
+    "highlighter": "all"
   }
 }
