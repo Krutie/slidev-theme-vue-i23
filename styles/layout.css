@@ -30,7 +30,7 @@ h4 {
 
 .slidev-layout.cover,
 .slidev-layout.intro,
-.slidev-layout.content,
+.slidev-layout.default,
 .slidev-layout.quote {
   @apply h-full grid;
 
