@@ -1,5 +1,5 @@
 <template>
-    <div class="slidev-layout cover text-center" :class="class" :style="style">
+    <div class="slidev-layout text-center cover" :class="class" :style="style">
         <div class="my-auto w-full">
             <slot />
         </div>
