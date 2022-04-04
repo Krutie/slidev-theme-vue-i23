@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-vue-i23?color=3AB9D4&label=slidev-theme-vue-i23)](https://www.npmjs.com/package/slidev-theme-vue-i23)
 
-A presentation theme (made with [Slidev](https://github.com/slidevjs/slidev)) for Vue presenations featuring Vue Bub.
+A presentation theme (made with [Slidev](https://github.com/slidevjs/slidev)) for Vue presenations featuring Vue bub.
 
 <!--
   Learn more about how to write a theme:
